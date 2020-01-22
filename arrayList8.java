@@ -1,21 +1,26 @@
+/* Write a Java program to sort a given array list.  */
 
-/*  Write a Java program to create a new array list, add some colors (string) and print out the collection.  */
 
 import java.util.*;
-public class arrayList1 {
+  public class arrayList8 {
   public static void main(String[] args) {
-
+ 
 
   List<String> list = new ArrayList<String>();
 
   list.add("Red");
-
   list.add("Green");
   list.add("Orange");
   list.add("White");
   list.add("Black");
-  System.out.println(list);
+
+  System.out.println("List before sort: "+list);
+  Collections.sort(list);
+  System.out.println("List after sort: "+list);    
  }
 }
+
+
+
 
 
